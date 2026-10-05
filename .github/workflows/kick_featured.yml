@@ -1,0 +1,63 @@
+name: Kick TR anasayfa
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  kayit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Türkçe anasayfayı kaydet
+        run: |
+          set -euo pipefail
+          mkdir -p snapshots
+          STAMP="$(date -u +'%Y-%m-%dT%H-%M-%SZ')"
+          echo "STAMP=$STAMP" >> "$GITHUB_ENV"
+          curl -fsSL -A "kick-tracker" -H "Accept: application/json" \
+            -o "snapshots/${STAMP}.json" \
+            "https://kick.com/stream/featured-livestreams/tr"
+          python3 - "$STAMP" <<'PY'
+          import json, sys
+          stamp = sys.argv[1]
+          raw = json.load(open(f"snapshots/{stamp}.json", encoding="utf-8"))
+          rows = raw if isinstance(raw, list) else raw.get("data") or raw.get("livestreams") or []
+          now = []
+          for row in rows:
+              ch = row.get("channel") or row.get("user") or {}
+              name = ch.get("slug") or ch.get("username") or row.get("slug") or "?"
+              now.append({
+                  "kanal": name,
+                  "baslik": row.get("session_title") or row.get("title"),
+                  "izleyici": row.get("viewer_count"),
+                  "kategori": (row.get("categories") or [{}])[0].get("name") if isinstance(row.get("categories"), list) else row.get("category"),
+              })
+          try:
+              ozet = json.load(open("ozet.json", encoding="utf-8"))
+          except FileNotFoundError:
+              ozet = {}
+          for item in now:
+              key = item["kanal"].lower()
+              slot = ozet.setdefault(key, {"kanal": item["kanal"], "gorunme": 0, "son": None})
+              slot["gorunme"] += 1
+              slot["son"] = stamp
+              slot["izleyici"] = item["izleyici"]
+              slot["kategori"] = item["kategori"]
+          sirali = sorted(ozet.values(), key=lambda x: x["gorunme"], reverse=True)
+          json.dump({"son_cekme": stamp, "simdi": now, "haftalik": sirali}, open("ozet.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          print(f"{len(now)} kanal")
+          PY
+
+      - name: Kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots ozet.json
+          git diff --staged --quiet || git commit -m "anasayfa ${STAMP}"
+          git push
