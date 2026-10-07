@@ -1,266 +1,194 @@
 {
-  "son_cekme": "2026-10-07T15-17-46Z",
-  "simdi": [
+  "son_cekme": "2026-10-07T15-25-26Z",
+  "en_cok_kalanlar": [
     {
+      "sira": 1,
       "kanal": "rootthegamer",
-      "baslik": "🔴 CANLI: PARI 🆚 NAVI | Bo3 | EPL S24 GRUP SON ŞANS",
-      "izleyici": 1826,
-      "kategori": "Counter-Strike 2",
-      "dil": "Turkish"
+      "saat": 1,
+      "simdi_anasayfada": true
     },
     {
-      "kanal": "miafitz",
-      "baslik": "mutfak yayını ε(´｡•᎑•`)っ 💕",
-      "izleyici": 394,
-      "kategori": "Just Chatting",
-      "dil": "Turkish"
-    },
-    {
+      "sira": 2,
       "kanal": "baboli",
-      "baslik": "canım sıkıldı...+18",
-      "izleyici": 355,
-      "kategori": "Wardogs",
-      "dil": "Turkish"
+      "saat": 1,
+      "simdi_anasayfada": true
     },
     {
+      "sira": 3,
+      "kanal": "miafitz",
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 4,
       "kanal": "wtcn",
-      "baslik": "+1900gs TR 1 büyücü | !pindirim !wraith",
-      "izleyici": 5044,
-      "kategori": "Aion 2",
-      "dil": "Turkish"
+      "saat": 1,
+      "simdi_anasayfada": true
     },
     {
-      "kanal": "nuriben",
-      "baslik": "KATMAN FC | !wraith",
-      "izleyici": 1875,
-      "kategori": "EA Sports FC 27",
-      "dil": "Turkish"
-    },
-    {
+      "sira": 5,
       "kanal": "kyootbot",
-      "baslik": "🤑 CHAT GETS $ GIVEAWAY?! 💚 $10,000 LEADERBOARD! 🤑 +Daily Giveaway! Code KYOOT on Stake💚 Need help entering? !livechat !stake",
-      "izleyici": 3429,
-      "kategori": "Slots & Casino",
-      "dil": "English"
+      "saat": 1,
+      "simdi_anasayfada": true
     },
     {
-      "kanal": "levo",
-      "baslik": "HAFTALIK RESET LETS GOOO !REHBER !knight !3dcim",
-      "izleyici": 1799,
-      "kategori": "Aion 2",
-      "dil": "Turkish"
-    },
-    {
-      "kanal": "naru",
-      "baslik": "Naru the Magnificent - YENİ PATCH(ÇAĞ) Sultanlar Sultanı Süleiman  !Pindirim",
-      "izleyici": 1657,
-      "kategori": "League of Legends",
-      "dil": "Turkish"
-    },
-    {
-      "kanal": "frankdimes",
-      "baslik": "I NEED \"BUY MY BROSKIS A HOUSE WIN\" !stake !stake.eu !stake.us USE CODE DIMES",
-      "izleyici": 2569,
-      "kategori": "Slots & Casino",
-      "dil": "English"
-    },
-    {
-      "kanal": "egearseven",
-      "baslik": "!SUBATHON DAY 19 474. SAAT ABİ 5 DAKİKA VARDI NASIL BÖYLE OLDU OHA O SAAT GERÇEK Mİ 5 DAKİKA ÇİŞE GİTMİŞTİM EGEM TOPLA SEN İSTERSEN VALİZLER",
-      "izleyici": 1583,
-      "kategori": "EA Sports FC 27",
-      "dil": "Turkish"
-    },
-    {
-      "kanal": "eldorinaa",
-      "baslik": "Sa | !menü - !insta",
-      "izleyici": 1176,
-      "kategori": "Just Chatting",
-      "dil": "Turkish"
-    },
-    {
+      "sira": 6,
       "kanal": "holythoth",
-      "baslik": "Günün 2. yayını biraz yorgunuz ama devam",
-      "izleyici": 614,
-      "kategori": "Teamfight Tactics",
-      "dil": "Turkish"
+      "saat": 1,
+      "simdi_anasayfada": true
     },
     {
-      "kanal": "pazalt",
-      "baslik": "FACEIT w/ @fredxrd @soulflycs !yt",
-      "izleyici": 258,
-      "kategori": "Counter-Strike 2",
-      "dil": "Turkish"
+      "sira": 7,
+      "kanal": "frankdimes",
+      "saat": 1,
+      "simdi_anasayfada": true
     },
     {
+      "sira": 8,
+      "kanal": "levo",
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 9,
+      "kanal": "nuriben",
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 10,
+      "kanal": "egearseven",
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 11,
+      "kanal": "naru",
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 12,
+      "kanal": "eldorinaa",
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 13,
       "kanal": "grimnax",
-      "baslik": "afsd",
-      "izleyici": 232,
-      "kategori": "Minecraft",
-      "dil": "Turkish"
+      "saat": 1,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 14,
+      "kanal": "kaorilol",
+      "saat": 1,
+      "simdi_anasayfada": true
     }
   ],
   "wasabi": {
-    "kanal": "wasabi",
-    "durum": "henuz anasayfada gorulmedi",
-    "ilk_gorulme": null,
-    "son_gorulme": null,
-    "tahmini_saat": 0
+    "durum": "henuz gorulmedi",
+    "konuldugu_an": null,
+    "kaldigi_saat": 0
   },
-  "sureler": [
-    {
+  "kanallar": {
+    "rootthegamer": {
       "kanal": "rootthegamer",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 1826,
-      "kategori": "Counter-Strike 2",
-      "dil": "Turkish"
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     },
-    {
-      "kanal": "miafitz",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 394,
-      "kategori": "Just Chatting",
-      "dil": "Turkish"
-    },
-    {
+    "baboli": {
       "kanal": "baboli",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 355,
-      "kategori": "Wardogs",
-      "dil": "Turkish"
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     },
-    {
+    "miafitz": {
+      "kanal": "miafitz",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "wtcn": {
       "kanal": "wtcn",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 5044,
-      "kategori": "Aion 2",
-      "dil": "Turkish"
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     },
-    {
-      "kanal": "nuriben",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 1875,
-      "kategori": "EA Sports FC 27",
-      "dil": "Turkish"
-    },
-    {
+    "kyootbot": {
       "kanal": "kyootbot",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 3429,
-      "kategori": "Slots & Casino",
-      "dil": "English"
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     },
-    {
-      "kanal": "levo",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 1799,
-      "kategori": "Aion 2",
-      "dil": "Turkish"
-    },
-    {
-      "kanal": "naru",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 1657,
-      "kategori": "League of Legends",
-      "dil": "Turkish"
-    },
-    {
-      "kanal": "frankdimes",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 2569,
-      "kategori": "Slots & Casino",
-      "dil": "English"
-    },
-    {
-      "kanal": "egearseven",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 1583,
-      "kategori": "EA Sports FC 27",
-      "dil": "Turkish"
-    },
-    {
-      "kanal": "eldorinaa",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 1176,
-      "kategori": "Just Chatting",
-      "dil": "Turkish"
-    },
-    {
+    "holythoth": {
       "kanal": "holythoth",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 614,
-      "kategori": "Teamfight Tactics",
-      "dil": "Turkish"
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     },
-    {
-      "kanal": "pazalt",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 258,
-      "kategori": "Counter-Strike 2",
-      "dil": "Turkish"
+    "frankdimes": {
+      "kanal": "frankdimes",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     },
-    {
+    "levo": {
+      "kanal": "levo",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "nuriben": {
+      "kanal": "nuriben",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "egearseven": {
+      "kanal": "egearseven",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "naru": {
+      "kanal": "naru",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "eldorinaa": {
+      "kanal": "eldorinaa",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "grimnax": {
       "kanal": "grimnax",
-      "ilk_gorulme": "2026-10-07T15-17-46Z",
-      "son_gorulme": "2026-10-07T15-17-46Z",
-      "gorunme": 1,
-      "tahmini_saat": 1,
-      "simdi_anasayfada": true,
-      "izleyici": 232,
-      "kategori": "Minecraft",
-      "dil": "Turkish"
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
+    },
+    "kaorilol": {
+      "kanal": "kaorilol",
+      "ilk": "2026-10-07T15-25-26Z",
+      "saat": 1,
+      "son": "2026-10-07T15-25-26Z",
+      "simdi": true
     }
-  ]
+  }
 }
