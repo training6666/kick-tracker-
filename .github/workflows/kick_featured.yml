@@ -28,7 +28,7 @@ jobs:
           stamp = sys.argv[1]
           raw = json.load(open(f"snapshots/{stamp}.json", encoding="utf-8"))
           rows = raw if isinstance(raw, list) else raw.get("data") or raw.get("livestreams") or []
-          now = []
+          now, seen = [], set()
           for row in rows:
               if not isinstance(row, dict):
                   continue
@@ -36,70 +36,47 @@ jobs:
               if not isinstance(ch, dict):
                   ch = {}
               name = ch.get("slug") or ch.get("username") or row.get("slug") or "?"
-              cat = row.get("categories")
-              if isinstance(cat, list) and cat:
-                  cat = cat[0].get("name") if isinstance(cat[0], dict) else cat[0]
-              now.append({
-                  "kanal": name,
-                  "baslik": row.get("session_title") or row.get("title"),
-                  "izleyici": row.get("viewer_count"),
-                  "kategori": cat,
-                  "dil": row.get("language") or row.get("lang_iso"),
-              })
+              key = str(name).lower()
+              if key in seen:
+                  continue
+              seen.add(key)
+              now.append(name)
           try:
-              ozet = json.load(open("ozet.json", encoding="utf-8"))
-              kanallar = {k.lower(): v for k, v in (ozet.get("kanallar") or {}).items()}
+              old = json.load(open("ozet.json", encoding="utf-8"))
+              kanallar = old.get("kanallar") or {}
           except FileNotFoundError:
               kanallar = {}
-          simdi_adlar = set()
-          for item in now:
-              key = item["kanal"].lower()
-              simdi_adlar.add(key)
-              slot = kanallar.get(key) or {
-                  "kanal": item["kanal"],
-                  "ilk_gorulme": stamp,
-                  "son_gorulme": None,
-                  "gorunme": 0,
-                  "tahmini_saat": 0,
-                  "simdi_anasayfada": False,
-              }
-              slot["kanal"] = item["kanal"]
-              slot["gorunme"] += 1
-              slot["tahmini_saat"] = slot["gorunme"]
-              slot["son_gorulme"] = stamp
-              slot["simdi_anasayfada"] = True
-              slot["izleyici"] = item["izleyici"]
-              slot["kategori"] = item["kategori"]
-              slot["dil"] = item["dil"]
+          for name in now:
+              key = name.lower()
+              slot = kanallar.get(key) or {"kanal": name, "ilk": stamp, "saat": 0}
+              slot["saat"] += 1
+              slot["son"] = stamp
+              slot["simdi"] = True
               kanallar[key] = slot
           for key, slot in kanallar.items():
-              if key not in simdi_adlar:
-                  slot["simdi_anasayfada"] = False
-          sirali = sorted(kanallar.values(), key=lambda x: x["tahmini_saat"], reverse=True)
+              if key not in seen:
+                  slot["simdi"] = False
+          sira = sorted(kanallar.values(), key=lambda x: x["saat"], reverse=True)
           wasabi = next((v for k, v in kanallar.items() if "wasabi" in k), None)
-          if wasabi is None:
-              wasabi = {
-                  "kanal": "wasabi",
-                  "durum": "henuz anasayfada gorulmedi",
-                  "ilk_gorulme": None,
-                  "son_gorulme": None,
-                  "tahmini_saat": 0,
-              }
+          if not wasabi:
+              wasabi = {"durum": "henuz gorulmedi", "konuldugu_an": None, "kaldigi_saat": 0}
           else:
               wasabi = {
-                  "kanal": wasabi["kanal"],
-                  "durum": "simdi anasayfada" if wasabi["simdi_anasayfada"] else "anasayfadan inmis",
-                  "konuldugu_an": wasabi["ilk_gorulme"],
-                  "son_goruldugu_an": wasabi["son_gorulme"],
-                  "tahmini_saat": wasabi["tahmini_saat"],
+                  "durum": "simdi anasayfada" if wasabi.get("simdi") else "inmis",
+                  "konuldugu_an": wasabi.get("ilk"),
+                  "son_gorulme": wasabi.get("son"),
+                  "kaldigi_saat": wasabi.get("saat", 0),
               }
           json.dump({
               "son_cekme": stamp,
-              "simdi": now,
+              "en_cok_kalanlar": [
+                  {"sira": i + 1, "kanal": x["kanal"], "saat": x["saat"], "simdi_anasayfada": x["simdi"]}
+                  for i, x in enumerate(sira)
+              ],
               "wasabi": wasabi,
-              "sureler": sirali,
+              "kanallar": kanallar,
           }, open("ozet.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-          print("simdi", len(now), "wasabi", wasabi["durum"])
+          print("kayit", len(now))
           PY
 
       - name: Kaydet
