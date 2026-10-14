@@ -1,5 +1,5 @@
 {
-  "son_cekme": "2026-10-14T10-22-08Z",
+  "son_cekme": "2026-10-14T11-21-22Z",
   "en_cok_kalanlar": [
     {
       "sira": 1,
@@ -16,8 +16,8 @@
     {
       "sira": 3,
       "kanal": "levo",
-      "saat": 58,
-      "simdi_anasayfada": false
+      "saat": 59,
+      "simdi_anasayfada": true
     },
     {
       "sira": 4,
@@ -28,7 +28,7 @@
     {
       "sira": 5,
       "kanal": "flomore",
-      "saat": 44,
+      "saat": 45,
       "simdi_anasayfada": true
     },
     {
@@ -45,21 +45,21 @@
     },
     {
       "sira": 8,
-      "kanal": "jahrein",
+      "kanal": "rootthegamer",
       "saat": 37,
-      "simdi_anasayfada": false
+      "simdi_anasayfada": true
     },
     {
       "sira": 9,
-      "kanal": "rootthegamer",
-      "saat": 36,
+      "kanal": "naru",
+      "saat": 37,
       "simdi_anasayfada": true
     },
     {
       "sira": 10,
-      "kanal": "naru",
-      "saat": 36,
-      "simdi_anasayfada": true
+      "kanal": "jahrein",
+      "saat": 37,
+      "simdi_anasayfada": false
     },
     {
       "sira": 11,
@@ -70,7 +70,7 @@
     {
       "sira": 12,
       "kanal": "allissag",
-      "saat": 32,
+      "saat": 33,
       "simdi_anasayfada": true
     },
     {
@@ -81,39 +81,39 @@
     },
     {
       "sira": 14,
+      "kanal": "maskar",
+      "saat": 30,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 15,
       "kanal": "h1vezzz",
       "saat": 30,
       "simdi_anasayfada": false
     },
     {
-      "sira": 15,
-      "kanal": "maskar",
-      "saat": 29,
-      "simdi_anasayfada": true
-    },
-    {
       "sira": 16,
       "kanal": "buraksakinol",
-      "saat": 26,
+      "saat": 27,
       "simdi_anasayfada": true
     },
     {
       "sira": 17,
+      "kanal": "kaorilol",
+      "saat": 25,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 18,
       "kanal": "eylulze",
       "saat": 25,
       "simdi_anasayfada": false
     },
     {
-      "sira": 18,
+      "sira": 19,
       "kanal": "ccinext",
       "saat": 25,
-      "simdi_anasayfada": true
-    },
-    {
-      "sira": 19,
-      "kanal": "kaorilol",
-      "saat": 24,
-      "simdi_anasayfada": true
+      "simdi_anasayfada": false
     },
     {
       "sira": 20,
@@ -213,27 +213,27 @@
     },
     {
       "sira": 36,
+      "kanal": "ilkinsan",
+      "saat": 19,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 37,
       "kanal": "grimnax",
       "saat": 18,
       "simdi_anasayfada": false
     },
     {
-      "sira": 37,
+      "sira": 38,
       "kanal": "barisg",
       "saat": 18,
       "simdi_anasayfada": false
     },
     {
-      "sira": 38,
+      "sira": 39,
       "kanal": "elofel",
       "saat": 18,
       "simdi_anasayfada": false
-    },
-    {
-      "sira": 39,
-      "kanal": "ilkinsan",
-      "saat": 18,
-      "simdi_anasayfada": true
     },
     {
       "sira": 40,
@@ -297,39 +297,39 @@
     },
     {
       "sira": 50,
+      "kanal": "jamie",
+      "saat": 14,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 51,
       "kanal": "nemesis",
       "saat": 14,
       "simdi_anasayfada": false
     },
     {
-      "sira": 51,
+      "sira": 52,
       "kanal": "revanch",
       "saat": 14,
       "simdi_anasayfada": false
     },
     {
-      "sira": 52,
+      "sira": 53,
+      "kanal": "sinsikaz",
+      "saat": 14,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 54,
       "kanal": "ivanb",
       "saat": 13,
       "simdi_anasayfada": false
     },
     {
-      "sira": 53,
-      "kanal": "jamie",
-      "saat": 13,
-      "simdi_anasayfada": true
-    },
-    {
-      "sira": 54,
+      "sira": 55,
       "kanal": "purplebixi",
       "saat": 13,
       "simdi_anasayfada": false
-    },
-    {
-      "sira": 55,
-      "kanal": "sinsikaz",
-      "saat": 13,
-      "simdi_anasayfada": true
     },
     {
       "sira": 56,
@@ -339,57 +339,57 @@
     },
     {
       "sira": 57,
+      "kanal": "classybeef",
+      "saat": 12,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 58,
       "kanal": "mithrain",
       "saat": 12,
       "simdi_anasayfada": false
     },
     {
-      "sira": 58,
+      "sira": 59,
       "kanal": "kickbounties",
       "saat": 12,
       "simdi_anasayfada": false
     },
     {
-      "sira": 59,
+      "sira": 60,
       "kanal": "kyootbot",
       "saat": 11,
       "simdi_anasayfada": false
     },
     {
-      "sira": 60,
+      "sira": 61,
       "kanal": "omeredic",
       "saat": 11,
       "simdi_anasayfada": false
     },
     {
-      "sira": 61,
+      "sira": 62,
       "kanal": "canbequit",
       "saat": 11,
       "simdi_anasayfada": false
     },
     {
-      "sira": 62,
+      "sira": 63,
       "kanal": "pazalt",
       "saat": 11,
       "simdi_anasayfada": false
     },
     {
-      "sira": 63,
+      "sira": 64,
       "kanal": "prodigyddk",
       "saat": 11,
       "simdi_anasayfada": false
     },
     {
-      "sira": 64,
+      "sira": 65,
       "kanal": "c9teen",
       "saat": 11,
       "simdi_anasayfada": false
-    },
-    {
-      "sira": 65,
-      "kanal": "classybeef",
-      "saat": 11,
-      "simdi_anasayfada": true
     },
     {
       "sira": 66,
@@ -531,93 +531,93 @@
     },
     {
       "sira": 89,
+      "kanal": "euryel",
+      "saat": 8,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 90,
       "kanal": "chuckybtz",
       "saat": 8,
       "simdi_anasayfada": false
     },
     {
-      "sira": 90,
+      "sira": 91,
       "kanal": "oguzsasi",
       "saat": 8,
       "simdi_anasayfada": false
     },
     {
-      "sira": 91,
+      "sira": 92,
       "kanal": "gozdebae",
       "saat": 8,
       "simdi_anasayfada": false
     },
     {
-      "sira": 92,
+      "sira": 93,
+      "kanal": "pubg_battlegroundstr",
+      "saat": 8,
+      "simdi_anasayfada": true
+    },
+    {
+      "sira": 94,
       "kanal": "odisnos",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 93,
+      "sira": 95,
       "kanal": "zeberus",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 94,
+      "sira": 96,
       "kanal": "mizkif",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 95,
+      "sira": 97,
       "kanal": "rooki3tv",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 96,
+      "sira": 98,
       "kanal": "schlump",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 97,
+      "sira": 99,
       "kanal": "hobbitemo",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 98,
-      "kanal": "euryel",
-      "saat": 7,
-      "simdi_anasayfada": false
-    },
-    {
-      "sira": 99,
+      "sira": 100,
       "kanal": "sinco",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 100,
+      "sira": 101,
       "kanal": "maj3r",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 101,
+      "sira": 102,
       "kanal": "prensesperver",
       "saat": 7,
       "simdi_anasayfada": false
     },
     {
-      "sira": 102,
+      "sira": 103,
       "kanal": "talatim",
       "saat": 7,
       "simdi_anasayfada": false
-    },
-    {
-      "sira": 103,
-      "kanal": "pubg_battlegroundstr",
-      "saat": 7,
-      "simdi_anasayfada": true
     },
     {
       "sira": 104,
@@ -1109,7 +1109,7 @@
       "sira": 185,
       "kanal": "sinasi",
       "saat": 2,
-      "simdi_anasayfada": true
+      "simdi_anasayfada": false
     },
     {
       "sira": 186,
@@ -1601,8 +1601,8 @@
     "rootthegamer": {
       "kanal": "rootthegamer",
       "ilk": "2026-10-07T15-25-26Z",
-      "saat": 36,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 37,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "baboli": {
@@ -1650,9 +1650,9 @@
     "levo": {
       "kanal": "levo",
       "ilk": "2026-10-07T15-25-26Z",
-      "saat": 58,
-      "son": "2026-10-13T17-09-53Z",
-      "simdi": false
+      "saat": 59,
+      "son": "2026-10-14T11-21-22Z",
+      "simdi": true
     },
     "nuriben": {
       "kanal": "nuriben",
@@ -1671,8 +1671,8 @@
     "naru": {
       "kanal": "naru",
       "ilk": "2026-10-07T15-25-26Z",
-      "saat": 36,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 37,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "eldorinaa": {
@@ -1692,8 +1692,8 @@
     "kaorilol": {
       "kanal": "kaorilol",
       "ilk": "2026-10-07T15-25-26Z",
-      "saat": 24,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 25,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "berkebiceps": {
@@ -1706,8 +1706,8 @@
     "allissag": {
       "kanal": "allissag",
       "ilk": "2026-10-07T16-11-30Z",
-      "saat": 32,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 33,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "rraenee": {
@@ -2119,8 +2119,8 @@
     "flomore": {
       "kanal": "flomore",
       "ilk": "2026-10-08T06-11-15Z",
-      "saat": 44,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 45,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "schlump": {
@@ -2149,7 +2149,7 @@
       "ilk": "2026-10-08T07-11-33Z",
       "saat": 25,
       "son": "2026-10-14T10-22-08Z",
-      "simdi": true
+      "simdi": false
     },
     "chiko_lol": {
       "kanal": "chiko_lol",
@@ -2182,8 +2182,8 @@
     "maskar": {
       "kanal": "maskar",
       "ilk": "2026-10-08T08-09-59Z",
-      "saat": 29,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 30,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "rahmican": {
@@ -2217,15 +2217,15 @@
     "buraksakinol": {
       "kanal": "buraksakinol",
       "ilk": "2026-10-08T09-09-50Z",
-      "saat": 26,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 27,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "ilkinsan": {
       "kanal": "ilkinsan",
       "ilk": "2026-10-08T09-09-50Z",
-      "saat": 18,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 19,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "gugucan": {
@@ -2252,8 +2252,8 @@
     "jamie": {
       "kanal": "jamie",
       "ilk": "2026-10-08T11-09-01Z",
-      "saat": 13,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 14,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "2xciv": {
@@ -2322,9 +2322,9 @@
     "euryel": {
       "kanal": "euryel",
       "ilk": "2026-10-08T15-09-30Z",
-      "saat": 7,
-      "son": "2026-10-13T12-13-27Z",
-      "simdi": false
+      "saat": 8,
+      "son": "2026-10-14T11-21-22Z",
+      "simdi": true
     },
     "locov2": {
       "kanal": "locov2",
@@ -2553,8 +2553,8 @@
     "classybeef": {
       "kanal": "classybeef",
       "ilk": "2026-10-09T09-10-08Z",
-      "saat": 11,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 12,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "razo97": {
@@ -2938,8 +2938,8 @@
     "sinsikaz": {
       "kanal": "sinsikaz",
       "ilk": "2026-10-11T04-08-16Z",
-      "saat": 13,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 14,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "jaukitty": {
@@ -3199,7 +3199,7 @@
       "ilk": "2026-10-12T10-11-27Z",
       "saat": 2,
       "son": "2026-10-14T10-22-08Z",
-      "simdi": true
+      "simdi": false
     },
     "triel": {
       "kanal": "triel",
@@ -3414,8 +3414,8 @@
     "pubg_battlegroundstr": {
       "kanal": "pubg_battlegroundstr",
       "ilk": "2026-10-14T04-20-56Z",
-      "saat": 7,
-      "son": "2026-10-14T10-22-08Z",
+      "saat": 8,
+      "son": "2026-10-14T11-21-22Z",
       "simdi": true
     },
     "iceposeidon": {
